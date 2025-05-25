@@ -1,12 +1,6 @@
 # 1. Download and install Python 3
 FROM python:3.13.3-slim-bullseye
 
-# Setup linux os packages
-
-# 2. Create Virtual Environment
-# 3. Install Python Packages - `pip install <package-name>`
-# 4. FastAPI Hello World
-
 # Create a virtual environment
 RUN python -m venv /opt/venv
 
